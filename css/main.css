@@ -18,6 +18,25 @@ h1, h2, h3, h4, .lead {
 	display: none;
 }
 
+nav ul {
+	padding-left: 0;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	padding: 0.5em;
+	margin-right: 0.5em;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #EEA000;
+}
+
 @media (min-width: 768px) {
 	.motto {
 		display: inline;
@@ -25,6 +44,16 @@ h1, h2, h3, h4, .lead {
 
 	body {
 		font-size: 18px;
+	}
+
+	header {
+		position: relative;
+	}
+
+	nav {
+		position: absolute;
+		top: 20px;
+		right: 20px;
 	}
 
 } /* for screens 768px and bigger */
